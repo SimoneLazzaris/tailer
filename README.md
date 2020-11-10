@@ -13,7 +13,7 @@ func main() {
         fmt.Printf(f.Tail()
     }
 }
-`
+```
 
 Function Tail wakes up every 100ms to check if there is any new line ready.
 It detects file rotation using simple euristics, which proved simple but very effective:
